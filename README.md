@@ -21,7 +21,8 @@ This just helps you confirm that mysql is installed and what version are you usi
 -     mysql --version
   ![Screenshot 2025-07-09 172941](https://github.com/user-attachments/assets/37875929-d96b-4a39-9705-1dd662b1708f)
 
-Just incease your mysql server doesn't start ,,you can try and run all these commands to troubleshoot your mysql server.
+## MySQL Service Management
+In case MySQL is not running or encounters issues, manage the service using the following commands:
 -     sudo systemctl start mysql  # Start the service do
       systemctl stop mysql   # Stop the service
       sudo systemctl restart mysql # Restart the service
