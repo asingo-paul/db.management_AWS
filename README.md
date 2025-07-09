@@ -26,4 +26,13 @@ In case MySQL is not running or encounters issues, manage the service using the 
 -     sudo systemctl start mysql  # Start the service do
       systemctl stop mysql   # Stop the service
       sudo systemctl restart mysql # Restart the service
-## next on
+### Troubleshooting Tip:
+If MySQL fails to start, check the status or logs:
+-      sudo systemctl status mysql
+       sudo journalctl -xe
+### Monitor MySQL Server Performance
+Use the built-in MySQL tool
+-      mysqladmin -u root -p processlist
+       mysqladmin -u root -p status
+
+
