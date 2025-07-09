@@ -8,5 +8,4 @@ I am currently managing a database on an ec2 instance for an application on two 
 -     sudo systemctl start mysql  # Start the service do
       systemctl stop mysql   # Stop the service
       sudo systemctl restart mysql # Restart the service
--
--
+## next on
